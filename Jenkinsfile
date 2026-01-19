@@ -12,7 +12,7 @@ pipeline {
         url: 'https://github.com/alswn8268/source-maven-java-spring-hello-webapp.git'
       }
     }
-    stage('Build) {
+    stage('Build') {
       steps {
         sh 'mvn clean package'
       }
